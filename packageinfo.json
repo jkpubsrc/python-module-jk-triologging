@@ -1,0 +1,52 @@
+{
+	"language": "python3",
+	"name": "jk_triologging",
+	"version": "0.2019.9.30",
+	"meta": {
+		"description": "This is a logging framework. It is based on jk_logging but can be used with Trio.",
+		"keywords": [
+			"debugging",
+			"logging",
+			"trio"
+		],
+		"license": "Apache 2.0",
+		"development_status": "alpha",
+		"authors": [
+			{
+				"name": "Jürgen Knauth",
+				"email": "pubsrc@binary-overflow.de"
+			}
+		],
+		"wiki": {
+			"page": "DevDocs:jk_triologging"
+		}
+	},
+	"repositories": [
+		{
+			"type": "github",
+			"user": "jkpubsrc",
+			"project": "python-module-jk-triologging",
+			"devon_publish": false
+		},
+		{
+			"type": "pypy",
+			"project": "jk_triologging",
+			"devon_publish": false
+		}
+	],
+	"source": {
+		"packages": [
+			"jk_triologging"
+		],
+		"extra_data_files": [
+		]
+	},
+	"requirements": {
+		"python_packages": [
+			"jk_logging"
+		],
+		"python_packages_dev": [
+		]
+	}
+}
+
