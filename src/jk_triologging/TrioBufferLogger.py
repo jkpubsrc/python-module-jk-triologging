@@ -27,6 +27,13 @@ class TrioBufferLogger(TrioLogWrapper):
 		await trio.to_thread.run_sync(self._l.forwardTo, ldest, bClear)
 	#
 
+	async def forwardToDescended(self, logger, text:str, bClear:bool = False):
+		ldest = logger._l if isinstance(logger, TrioLogWrapper) else logger
+		assert isinstance(ldest, jk_logging.AbstractLogger)
+
+		await trio.to_thread.run_sync(self._l.forwardToDescended, ldest, text, bClear)
+	#
+
 	async def getDataAsJSON(self) -> list:
 		return await trio.to_thread.run_sync(self._l.getDataAsJSON)
 	#

@@ -1,13 +1,15 @@
 ﻿
 
 
-__version__ = "0.2019.9.30"
+__version__ = "0.2019.10.4"
 
 
 from jk_logging import *
 from jk_logging import EnumLogLevel, DEFAULT_LOG_MESSAGE_FORMATTER, COLOR_LOG_MESSAGE_FORMATTER, HTML_LOG_MESSAGE_FORMATTER
 
 from ._inst import instantiate
+
+from .TrioLogWrapper import TrioLogWrapper
 
 from .TrioBufferLogger import TrioBufferLogger
 from .TrioConsoleLogger import TrioConsoleLogger
@@ -17,7 +19,6 @@ from .TrioMulticastLogger import TrioMulticastLogger
 from .TrioNamedMulticastLogger import TrioNamedMulticastLogger
 from .TrioNullLogger import TrioNullLogger
 from .TrioStringListLogger import TrioStringListLogger
-
 
 
 

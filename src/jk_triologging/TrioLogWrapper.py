@@ -154,10 +154,10 @@ class TrioLogWrapper(object):
 
 	def __str__(self):
 		s = str(self._l)
-		pos = s.index("Logger ")
-		if pos:
-			pos = s.rindex(".", 0, pos-1)
-			if pos:
+		pos = s.find("Logger ")
+		if pos >= 0:
+			pos = s.rfind(".", 0, pos-1)
+			if pos >= 0:
 				return "<Trio" + s[pos+1:]
 		return "<Trio" + s[1:]
 	#
