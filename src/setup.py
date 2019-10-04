@@ -26,7 +26,7 @@ setup(
 		"Topic :: System :: Logging",
 	],
 	description = "This is a logging framework. It is based on jk_logging but can be used with Trio.",
-	download_url = "https://github.com/jkpubsrc/python-module-jk-triologging/tarball/0.2019.9.30",
+	download_url = "https://github.com/jkpubsrc/python-module-jk-triologging/tarball/0.2019.10.4.1",
 	include_package_data = False,
 	install_requires = [
 		"jk_logging",
@@ -42,7 +42,7 @@ setup(
 		"jk_triologging",
 	],
 	url = "https://github.com/jkpubsrc/python-module-jk-triologging",
-	version = "0.2019.9.30",
+	version = "0.2019.10.4.1",
 	zip_safe = False,
 	long_description = readme(),
 	long_description_content_type="text/markdown",
