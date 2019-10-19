@@ -20,7 +20,7 @@ class TrioNamedMulticastLogger(TrioLogWrapper):
 			else:
 				assert isinstance(l, jk_logging.AbstractLogger)
 				loggers[k] = l
-		return TrioNamedMulticastLogger.create(jk_logging.NamedMulticastLogger.create(**loggers))
+		return TrioNamedMulticastLogger(jk_logging.NamedMulticastLogger.create(**loggers))
 	#
 
 	def addLogger(self, loggerName:str, logger):

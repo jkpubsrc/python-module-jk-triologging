@@ -1,7 +1,7 @@
 ﻿
 
 
-__version__ = "0.2019.10.4.1"
+__version__ = "0.2019.10.19"
 
 
 from jk_logging import *
@@ -19,6 +19,4 @@ from .TrioMulticastLogger import TrioMulticastLogger
 from .TrioNamedMulticastLogger import TrioNamedMulticastLogger
 from .TrioNullLogger import TrioNullLogger
 from .TrioStringListLogger import TrioStringListLogger
-
-
 

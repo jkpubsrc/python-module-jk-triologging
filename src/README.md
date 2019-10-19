@@ -21,6 +21,25 @@ Limitations of this module
 
 This module provides classes wrapping (almost all) classes from `jk_logging`. It provides almost all functionality despite one: Descending hierarchically is not supported. (This might change one day, but not in the near future.)
 
+How to install module
+----------------------
+
+This module can be installed easily using `pip`.
+
+Use this command for a system wide installation of this module:
+
+```bash
+$ sudo pip install jk-triologging
+```
+
+Use this command for user specific installation of this module:
+
+```bash
+$ pip install --user jk-triologging
+```
+
+The PiPy module is always kept in sync with the Github repository so using PyPi is equivalent to a manual installation using the code provided on Github.
+
 How to use this module
 ----------------------
 

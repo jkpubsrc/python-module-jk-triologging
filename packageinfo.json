@@ -1,7 +1,7 @@
 {
 	"language": "python3",
 	"name": "jk_triologging",
-	"version": "0.2019.10.4.1",
+	"version": "0.2019.10.19",
 	"meta": {
 		"description": "This is a logging framework. It is based on jk_logging but can be used with Trio.",
 		"keywords": [
@@ -10,7 +10,7 @@
 			"trio"
 		],
 		"license": "Apache 2.0",
-		"development_status": "alpha",
+		"development_status": "stable",
 		"authors": [
 			{
 				"name": "Jürgen Knauth",
