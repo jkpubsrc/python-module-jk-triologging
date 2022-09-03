@@ -9,7 +9,7 @@ This python module ...
 Information about this module can be found here:
 
 * [github.com](https://github.com/jkpubsrc/python-module-jk-triologging)
-* [pypi.python.org](https://pypi.python.org/pypi/jk_triologging)
+* [pypi.org](https://pypi.org/project/jk-triologging/)
 
 Why this module?
 ----------------
